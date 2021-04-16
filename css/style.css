@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url('/images/space.jpg');
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    text-align: center;
+    padding: 20px;
+    color: #FFD940;
+}
+
+#header h1 {
+    margin: 20px;
+}
+
+#fetch-btn {
+    font-size: 20px;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #000000;
+    color: #FFD940;
+    border: 2px solid #FFD940;
+    cursor: pointer;
+}
+
+#fetch-btn:hover {
+    background-color: #202020;
+}
+
+#movie-list {
+    flex: 1;
+    text-align: center;
+    color: #FFD940;
+}
